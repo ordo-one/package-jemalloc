@@ -1,0 +1,5 @@
+module jemalloc {
+    header "../../Headers/jemalloc.h"
+    link "jemalloc"
+    export *
+}
