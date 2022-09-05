@@ -19,7 +19,7 @@ A Swift module map for [jemalloc](http://jemalloc.net)
         .executableTarget(
             name: "xxx",
             dependencies: [
-                .product(name: "jemalloc", package: "jemalloc"),
+                .product(name: "jemalloc", package: "package-jemalloc"),
             ]
         ),
 ```
