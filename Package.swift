@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "package-jemalloc",
+    name: "jemalloc",
     products: [
         .library(
             name: "jemalloc",
