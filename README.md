@@ -4,7 +4,17 @@ A Swift module map for [jemalloc](http://jemalloc.net)
 
 # Usage
 
-1. Install jemalloc on your machine (e.g. `brew install jemalloc` on macOS, preinstalled on some Linux distributions).
+1. Install jemalloc on your machine, e.g.: 
+
+#### macOS 
+```
+brew install jemalloc
+```
+
+#### Ubuntu 
+```
+sudo apt-get install -y libjemalloc-dev
+```
 
 2. Add a dependency to your Package.swift
 ```
